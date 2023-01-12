@@ -1,0 +1,178 @@
+﻿
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    width: 300px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 300px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ng-pluralize
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/*  tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+*/
+#btn_up {
+    width: 100px;
+}
+
+#btn_delete {
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+#IGPBI {
+    width: 129px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+#selectsearch {
+    margin-top: 7px;
+}
+
+.tbox {
+    margin-bottom: 7px;
+    width: 210px;
+}
+
+.col-3 {
+    margin-left: 10px;
+    margin-top: 10px;
+/*    width: auto;*/
+}
+
+.yazi {
+    width: 130px;
+}
+
+#btnClear {
+    margin-left: 85px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ng-pluralize
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#btn_up {
+    width: 100px;
+}
+
+#btn_delete {
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+#IGPBI {
+    width: 129px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+#selectsearch {
+    margin-top: 7px;
+}
+
+.tbox {
+    margin-bottom: 7px;
+    width: 210px;
+}
+
+.col-3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: auto;
+}
+
+.yazi {
+    width: 130px;
+}
+
+#txtGetbyID {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 143px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ng-pluralize
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#btn_up {
+    width: 100px;
+}
+
+#btn_delete {
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+#IGPBI {
+    width: 129px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+#selectsearch {
+    margin-top: 7px;
+}
+
+.tbox {
+    margin-bottom: 7px;
+    width: 210px;
+}
+
+.col-3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: auto;
+}
+
+.yazi {
+    width: 130px;
+}
+
+#btnClear {
+    margin-left: 85px;
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev1", "Odev1\Odev1.csproj", "{4282CC31-2809-4266-9841-DB37C75BBD6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO", "ADO\ADO.csproj", "{701F5650-07FD-4F51-82C8-04F7E006686E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4282CC31-2809-4266-9841-DB37C75BBD6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4282CC31-2809-4266-9841-DB37C75BBD6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4282CC31-2809-4266-9841-DB37C75BBD6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4282CC31-2809-4266-9841-DB37C75BBD6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701F5650-07FD-4F51-82C8-04F7E006686E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701F5650-07FD-4F51-82C8-04F7E006686E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701F5650-07FD-4F51-82C8-04F7E006686E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701F5650-07FD-4F51-82C8-04F7E006686E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7244C37B-3D4A-4745-B3E0-78DB47070375}
+	EndGlobalSection
+EndGlobal

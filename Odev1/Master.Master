@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Odev1.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript" src="../Master.js"></script>
+
+    <link rel="stylesheet" href="/Style/Main.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="https://localhost:44373/HomePage/HomePage.aspx">HomePage</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://localhost:44373/Product/PDefault.aspx">Product</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://localhost:44373/Category/Category.aspx">Category</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="https://localhost:44373/Supplier/Supplier.aspx">Supplier</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">ByMehmet</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+
+    <!-- Footer Start ********* -->
+    <footer class="" style="height: 150px;">
+        <!-- Sol Taraf Footer -->
+
+        <div class="row" style="background-color: #312f2f; color: white;">
+            <!--mail footer-->
+            <div class="col-md-2 ">
+                <div class="text-muted mt-4">
+                    <h5 class="ml-4">Address</h5>
+                    <address class="ml-4">
+                        <span class="fa fa-map-marker text-primary" aria-hidden="true"></span>İstanbul / Türkiye
+                        <br />
+                        <span class="fa fa-envelope text-primary" aria-hidden="true"></span><a href="mailto:">mhmt7818@gmail.com</a>
+                        <br />
+                        <span class="fa fa-phone text-primary" aria-hidden="true"></span><a href="tel.+90 545 903 44 48:">+90 545 903 44 48</a>
+                    </address>
+                </div>
+            </div>
+            <div class="col-md-3 mt-4">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="350" height="200" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=bur%C3%A7%20istanbul&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://putlocker-is.org"></a>
+                        <br>
+                        <a href="https://www.embedgooglemap.net">google map coding</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Orta taraf -->
+            <div class="col-md-3">
+                <div class="list-group mt-sm-10">
+                    <div class="text-muted ">
+                        <h5 class="ml-3">Blog</h5>
+                        <a href="#" class="list-group-item list-group-item-action">Lorem ipsum dolor sit.</a>
+                        <a href="#" class="list-group-item list-group-item-action">Lorem ipsum dolor sit.</a>
+                        <a href="#" class="list-group-item list-group-item-action">Lorem ipsum dolor sit.</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled">Lorem ipsum dolor sit.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <form method="POST" class="">
+                    <div class="text-muted ">
+                        <h5>Mail Gönder</h5>
+
+                    </div>
+                    <div class="">
+                        <input type="text" class="form-control" placeholder="adınız ve soyadınızı yazınız" required
+                            id="form-name" name="form-name">
+                        <br>
+                        <small class="text-danger text-muted"></small>
+                    </div>
+                    <div class="">
+                        <input type="email" class="form-control" placeholder="email" required id="form-name2" name="form-name">
+                        <br>
+                        <small class="text-danger text-muted"></small>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="mesajınız" rows="1"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary  mr-5 mr-auto  ">Gönder</button>
+                    <button type="reset" class="btn btn-info  ml-3 mr-auto">Temizle</button>
+                </form>
+            <br />
+            <br />
+            <br />
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
